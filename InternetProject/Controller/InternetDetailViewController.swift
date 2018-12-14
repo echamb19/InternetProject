@@ -32,20 +32,22 @@ public class InternetDetailViewController: UIViewController
 
     private func updateView() -> Void
     {
-        if (detailTitle?.range(of: "Defintions", options: .caseInsensitive) != nil)
+        if (detailTitle != nil && screenTitle != nil && webViewer != nil)
         {
-            loadPDF()
-        }
-        else
-        {
-            if (detailAddress != nil)
+            if (detailTitle?.range(of: "Defintions", options: .caseInsensitive) != nil)
             {
-                loadURL(webAddress: detailAddress!)
+                    loadPDF()
             }
+            else
+            {
+                if (detailAddress != nil)
+                {
+                    loadURL(webAddress: detailAddress!)
+                }
+            }
+            screenTitle?.text = detailTitle
         }
-        screenTitle?.text = detailTitle
     }
-    
     public override func viewDidLoad()
     {
         super.viewDidLoad()
