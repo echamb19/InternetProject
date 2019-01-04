@@ -17,12 +17,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ztn-sA-3va">
-                                <rect key="frame" x="166" y="90" width="42" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <wkWebView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fHp-RC-uEX">
                                 <rect key="frame" x="0.0" y="370" width="375" height="277"/>
                                 <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -34,12 +28,18 @@
                                     <wkPreferences key="preferences"/>
                                 </wkWebViewConfiguration>
                             </wkWebView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Screen Title" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ztn-sA-3va">
+                                <rect key="frame" x="47" y="92" width="280" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="Ztn-sA-3va" firstAttribute="leading" secondItem="ALj-ju-hnn" secondAttribute="leading" constant="166" id="1BJ-4z-pv9"/>
+                            <constraint firstItem="Ztn-sA-3va" firstAttribute="leading" secondItem="ALj-ju-hnn" secondAttribute="leading" constant="47" id="1BJ-4z-pv9"/>
                             <constraint firstItem="fHp-RC-uEX" firstAttribute="width" secondItem="ALj-ju-hnn" secondAttribute="width" id="3Qe-1I-xck"/>
-                            <constraint firstItem="Ztn-sA-3va" firstAttribute="top" secondItem="ALj-ju-hnn" secondAttribute="top" constant="26" id="69d-PF-ihB"/>
+                            <constraint firstItem="Ztn-sA-3va" firstAttribute="top" secondItem="ALj-ju-hnn" secondAttribute="top" constant="28" id="69d-PF-ihB"/>
                             <constraint firstItem="Ztn-sA-3va" firstAttribute="centerX" secondItem="fHp-RC-uEX" secondAttribute="centerX" id="GAV-5b-2nX"/>
                             <constraint firstAttribute="bottom" secondItem="fHp-RC-uEX" secondAttribute="bottom" constant="20" id="MQf-pY-JbJ"/>
                             <constraint firstItem="Ztn-sA-3va" firstAttribute="centerX" secondItem="mn1-cy-32z" secondAttribute="centerX" id="kMx-wR-z3X"/>
