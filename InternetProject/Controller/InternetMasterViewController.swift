@@ -8,7 +8,7 @@
 
 import UIKit
 
-class InternetMasterViewController: UITableViewController
+public class InternetMasterViewController: UITableViewController
 {
 
     private weak var internetDetail: InternetDetailViewController? = nil
@@ -31,6 +31,7 @@ class InternetMasterViewController: UITableViewController
             "https://www.google.com",
             "https://www.google.com",
             "https://www.google.com",
+            "https://www.google.com",
             "https://www.google.com"
         ]
         
@@ -42,7 +43,7 @@ class InternetMasterViewController: UITableViewController
     }
     
     // V This method only happens once with the split view V
-    override func viewDidLoad()
+    public override func viewDidLoad()
     {
         super.viewDidLoad()
 

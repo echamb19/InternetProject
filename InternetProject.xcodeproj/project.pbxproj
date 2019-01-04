@@ -80,8 +80,8 @@
 		DB632F4221C1ACFB0021558A /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				DB927A5621C43DAF0008E698 /* InternetDetailViewController.swift */,
 				DB927A5821C445680008E698 /* InternetMasterViewController.swift */,
+				DB927A5621C43DAF0008E698 /* InternetDetailViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
