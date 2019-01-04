@@ -83,7 +83,7 @@ class InternetMasterViewController: UITableViewController
         internetDetail?.detailTitle = internetTopics[indexPath.row]
         if (internetDetail != nil)
         {
-            splitViewController?.showDetailViewController(internetDetail!, sender:nil)
+            splitViewController?.showDetailViewController(internetDetail!, sender: nil)
         }
         
     }
