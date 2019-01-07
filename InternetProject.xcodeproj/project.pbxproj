@@ -58,17 +58,9 @@
 			children = (
 				DB632F4221C1ACFB0021558A /* Controller */,
 				DB632F4121C1ACF20021558A /* View */,
-				DB632F4021C1ACED0021558A /* Model */,
 				DB632F4321C1AD050021558A /* Resources */,
 			);
 			path = InternetProject;
-			sourceTree = "<group>";
-		};
-		DB632F4021C1ACED0021558A /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
 			sourceTree = "<group>";
 		};
 		DB632F4121C1ACF20021558A /* View */ = {
